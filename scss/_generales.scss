@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2? family = Andada + Pro: wght @ 500 & display = swap');
+
+/*reseteo CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+a {
+    color: rgb(0, 0, 0);
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+
+}
+
+/*MENU Principal*/
+nav {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+nav ul {
+    margin: 1px;
+    padding: 0;
+    list-style: none;
+    /*Para agregar color al menu*/
+    background-color: rgb(255, 255, 255);
+    /*color al menu*/
+    text-align: center;
+    /*alineacion o centrado del texto*/
+}
+
+nav li {
+    display: inline-block;
+    /*para poner en linea horizontal las listas*/
+    padding: 8px;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+
+.formulario {
+    text-align: center;
+    padding: 56px;
+}
+
+.formularioUsuario {
+    padding: 200px;
+}
+
+.videos {
+    padding: 100px;
+    text-align: center;
+}
+
+.imagenPrincipal {
+    text-align: center;
+    overflow: hidden;
+    padding: 0px;
+    align-content: center;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    justify-content: space-around;
+}
+
+article {
+    overflow: hidden;
+    height: 350px;
+    width: 350px;
+    padding: 1px;
+    border: solid rgb(150, 150, 150);
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(127, 206, 243), white);
+}
+
+/*animacion*/
+.animacion li a:hover {
+    background-color: rgb(204, 240, 236);
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}

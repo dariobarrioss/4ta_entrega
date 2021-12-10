@@ -1,0 +1,28 @@
+@import "generales";
+
+@import "header";
+
+@import "footer";
+
+
+.ae01 {
+    margin-bottom: 0.78125rem;
+    margin-top: 0;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    margin-left: 25rem;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+    max-width: 600px;
+
+    .link {
+        color: rgb(79, 79, 243);
+    }
+}
+
+.tit {
+    color: #121212;
+    font-family: nyt-cheltenham-cond, nyt-cheltenham, georgia, 'times new roman', times, serif;
+    text-align: center;
+}

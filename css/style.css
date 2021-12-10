@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2? family = Andada + Pro: wght @ 500 & display = swap");
+/*reseteo CSS*/
+* {
+  margin: 0;
+  padding: 0; }
+
+h1,
+a {
+  color: black;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif; }
+
+/*MENU Principal*/
+nav {
+  border: 1px solid black; }
+
+nav a {
+  color: black;
+  font-weight: bold; }
+
+nav ul {
+  margin: 1px;
+  padding: 0;
+  list-style: none;
+  /*Para agregar color al menu*/
+  background-color: white;
+  /*color al menu*/
+  text-align: center;
+  /*alineacion o centrado del texto*/ }
+
+nav li {
+  display: inline-block;
+  /*para poner en linea horizontal las listas*/
+  padding: 8px; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+.formulario {
+  text-align: center;
+  padding: 56px; }
+
+.formularioUsuario {
+  padding: 200px; }
+
+.videos {
+  padding: 100px;
+  text-align: center; }
+
+.imagenPrincipal {
+  text-align: center;
+  overflow: hidden;
+  padding: 0px;
+  align-content: center; }
+
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  margin: 100px;
+  justify-content: space-around; }
+
+article {
+  overflow: hidden;
+  height: 350px;
+  width: 350px;
+  padding: 1px;
+  border: solid #969696; }
+
+header {
+  background-image: linear-gradient(to bottom, #7fcef3, white); }
+
+/*animacion*/
+.animacion li a:hover {
+  background-color: #ccf0ec; }
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%; }
+
+.header {
+  padding: 20px;
+  color: black;
+  text-align: center; }
+
+header {
+  background-image: linear-gradient(to bottom, #7fcef3, white); }
+
+/*bloques*/
+footer {
+  padding: 20px;
+  color: black;
+  text-align: center; }
+
+footer {
+  color: black;
+  font-weight: bold; }
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+
+footer li {
+  display: inline-block;
+  padding: 5px; }
+
+footer {
+  background-image: linear-gradient(to top, #7fcef3, white); }
+
+footer:hover p {
+  transition: 3s;
+  font-size: 1.5rem; }
+
+.menuDeAbajo {
+  padding: 5px;
+  border: 1px solid black; }
+
+.ae01 {
+  margin-bottom: 0.78125rem;
+  margin-top: 0;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  margin-left: 25rem;
+  margin-right: 20px;
+  width: calc(100% - 40px);
+  max-width: 600px; }
+  .ae01 .link {
+    color: #4f4ff3; }
+
+.tit {
+  color: #121212;
+  font-family: nyt-cheltenham-cond, nyt-cheltenham, georgia, 'times new roman', times, serif;
+  text-align: center; }

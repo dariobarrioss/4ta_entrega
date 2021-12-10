@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Genero</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/style.css">
+	<style>
+		/*grids*/
+		* {
+			box-sizing: border-box;
+		}
+
+		@media (min-width: 320px) {
+			.contenedorGalery {
+				display: grid;
+				grid-gap: 5px;
+				grid-template-columns: 2fr;
+				grid-template-areas:
+					'A'
+					'B'
+					'C'
+					'D'
+					'E';
+			}
+		}
+
+		@media (min-width:769px) {
+			.contenedorGalery {
+				grid-template-columns: 1fr 1fr 1.525fr;
+				grid-template-areas:
+					'A  B  E'
+					'C  D  E';
+			}
+		}
+
+		@media (min-width: 481px) and (max-width:768px) {
+			.contenedorGalery {
+				grid-template-columns: 1fr 1fr;
+				grid-template-areas:
+					'A B'
+					'C E'
+					'D E';
+			}
+		}
+
+		img:nth-child(1) {
+			grid-area: A;
+		}
+
+		img:nth-child(2) {
+			grid-area: B;
+		}
+
+		img:nth-child(3) {
+			grid-area: C;
+		}
+
+		img:nth-child(4) {
+			grid-area: D;
+		}
+
+		img:nth-child(5) {
+			grid-area: E;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+
+	<header class="header">
+		<h1><a href="../index.html">SIEMPRE A LA MODA</a></h1>
+
+
+	</header>
+	<nav>
+		<ul>
+			<li><a href="../index.html">INICIO</a></li>
+			<li><a href="#">MUJER</a</li> <li><a href="hombre.html">HOMBRE</a></li>
+			<li><a href="tendencia.html">TENDENCIA</a></li>
+			<li><a href="usuario.html">USUARIO</a></li>
+			<li><a href="contacto.html"> CONTACTO</a></li>
+
+		</ul>
+	</nav>
+	<main>
+		<div class="container mt-3">
+
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+				<ul class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ul>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="../imgmujer/vestid.jpg" alt="" width="1100" height="500">
+					</div>
+					<div class="carousel-item">
+						<img src="../imgmujer/R.png" alt="" width="1100" height="500">
+					</div>
+					<div class="carousel-item">
+						<img src="../imgmujer/modd.jpg" alt="" width="950" height="500">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+
+		</div>
+		<br>
+		<div class="contenedorGalery">
+			<a target="blank" href="../imgmujer/braz.jpg">
+			<img src="../imgmujer/braz.jpg" alt=""></a>
+			<a target="blank" href="../imgmujer/camp.jpg">
+				<img src="../imgmujer/camp.jpg" alt=""></a>
+			<a target="blank" href="../imgmujer/ver.jpg">
+				<img src="../imgmujer/ver.jpg" alt=""></a>
+			<a target="blank" href="../imgmujer/mor.jpg">
+				<img src="../imgmujer/mor.jpg" alt=""></a>
+			<img src="../imgmujer/rosa.jpg" alt="">
+		</div>
+
+	</main>
+
+	<footer class="menuDeAbajo">
+		<ul>
+			<li><a target="blank" href="https://www.instagram.com/">Instagram</a></li>
+			<li><a target="blank" href="https://es-la.facebook.com/">Facebook</a></li>
+			<li><a target="blank" href="https://twitter.com/">Twitter</a></li>
+			<li><a target="blank" href="https://www.snapchat.com/">Snapchat</a></li>
+		</ul>
+		<p>&copy; Todos los derechos reservados
+			SIEMPRE A LA MODA
+			&amp; compania 2021.
+
+	</footer>
+
+
+</body>
+
+</html>

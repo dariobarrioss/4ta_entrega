@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Ala moda L</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		@media (min-width: 320px) {
+			.pagPrincipal {
+				display: grid;
+				grid-gap: 3px;
+				grid-template-columns: 2fr;
+				grid-template-areas:
+					'A'
+					'B'
+					'C'
+					'D'
+					'E'
+					'F'
+					'G'
+					'H'
+					'I'
+					'J'
+					'K';
+			}
+		}
+
+		@media (min-width:769px) {
+			.pagPrincipal {
+				grid-template-columns: 1fr 1fr 1.525fr;
+				grid-template-areas:
+					'A  B  E'
+					'C  D  E'
+					'J  G  F'
+					'K  I  H';
+			}
+		}
+
+		@media (min-width: 481px) and (max-width:768px) {
+			.pagPrincipal {
+				grid-template-columns: 1fr 1fr;
+				grid-template-areas:
+					'A B'
+					'C E'
+					'D E'
+					'F G'
+					'H J'
+					'I K';
+			}
+		}
+
+		img:nth-child(1) {
+			grid-area: A;
+		}
+
+		img:nth-child(2) {
+			grid-area: B;
+		}
+
+		img:nth-child(3) {
+			grid-area: C;
+		}
+
+		img:nth-child(4) {
+			grid-area: D;
+		}
+
+		img:nth-child(5) {
+			grid-area: E;
+		}
+		img:nth-child(6) {
+			grid-area: F;
+		}
+
+		img:nth-child(7) {
+			grid-area: G;
+		}
+
+		img:nth-child(8) {
+			grid-area: H;
+		}
+
+		img:nth-child(9) {
+			grid-area: I;
+		}
+
+		img:nth-child(10) {
+			grid-area: J;
+		}
+		img:nth-child(11){
+			grid-area: K;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	
+	<header class="header">
+		<h1><a href="index.html">SIEMPRE A LA MODA</a></h1>
+
+	</header>
+
+	<nav>
+		<!--Menu superior principal-->
+		<ul class="animacion">
+			<li><a href="#">INICIO</a></li>
+			<li><a href="./menu/mujer.html">MUJER</a></li>
+			<li><a href="./menu/hombre.html">HOMBRE</a></li>
+			<li><a href="./menu/tendencia.html">TENDENCIA</a></li>
+			<li><a href="./menu/usuario.html">USUARIO</a></li>
+			<li><a href="./menu/contacto.html"> CONTACTO</a></li>
+		</ul>
+
+	</nav>
+	<!-- SECCION RINCIPAL-->
+	<main class="colorFlex">
+		<div class="container mt-3">
+
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+				<ul class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ul>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="./images/men.png.jpg" alt="" width="1100" height="500">
+					</div>
+					<div class="carousel-item">
+						<img src="./imgmujer/cyber.jpg" alt="" width="1100" height="500">
+					</div>
+					<div class="carousel-item">
+						<img src="./imgmujer/zapatillas.jpg" alt="" width="1100" height="500">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+
+		</div>
+		<hr>
+
+		<div class="pagPrincipal">
+			<a target="blank" href="imgmujer/braz.jpg">
+				<img src="imgmujer/braz.jpg" alt=""></a>
+				<a target="blank" href="imghombre/red.png">
+					<img src="imghombre/red.png" alt=""></a>
+				<a target="blank" href="imgmujer/02.png">
+					<img src="imgmujer/02.png" alt=""></a>
+				<a target="blank" href="imgmujer/mor.jpg">
+					<img src="imgmujer/mor.jpg" alt=""></a>
+					<img src="images/01.png" alt="">
+				<a target="blank" href="imghombre/chin.png">
+					<img src="imghombre/chin.png" alt=""></a>
+				<a target="blank" href="images/parbar.png">
+					<img src="images/parbar.png" alt=""></a>
+				<a target="blank" href="imgmujer/camp.jpg">
+					<img src="imgmujer/camp.jpg" alt=""></a>
+				<a target="blank" href="images/blackpar.png">
+					<img src="images/blackpar.png" alt=""></a>
+					<a target="blank" href="images/par.png">
+						<img src="images/par.png" alt=""></a>
+						<img src="imghombre/lev.png" alt="">
+		</div>
+	</main>
+	<!--pie de pagina-->
+	<footer class="menuDeAbajo">
+		<ul>
+			<li><a target="blank" href="https://www.instagram.com/">Instagram</a></li>
+			<li><a target="blank" href="https://es-la.facebook.com/">Facebook</a></li>
+			<li><a target="blank" href="https://twitter.com/">Twitter</a></li>
+			<li><a target="blank" href="https://www.snapchat.com/">Snapchat</a></li>
+		</ul>
+		<p>&copy; Todos los derechos reservados SIEMPRE A LA MODA
+			&amp; compania 2021.
+		</p>
+
+	</footer>
+	
+</body>
+
+</html>
